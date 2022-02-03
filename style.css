@@ -29,6 +29,11 @@ body h1 {
   letter-spacing: 3px;
 }
 
+body h1 a {
+  color: black;
+  text-decoration: none;
+}
+
 body .poke-container {
   display: -webkit-box;
   display: -ms-flexbox;

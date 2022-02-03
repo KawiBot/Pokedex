@@ -1,5 +1,5 @@
 const poke_container = document.getElementById("poke-container");
-
+const github_container = document.getElementById("github");
 const pokemon_count = 150;
 const colors = {
   fire: "#FDDFDF",
@@ -17,7 +17,6 @@ const colors = {
   fighting: "#E6E0D4",
   normal: "#F5F5F5",
 };
-
 const main_types = Object.keys(colors);
 
 const fetchPokemons = async () => {
